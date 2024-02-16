@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <style>
+        body{
+            background: linear-gradient(lightblue,lightyellow);
+        }
+        form {
+            background: linear-gradient(lightblue,black,gray);
+            background-color: rgb(208, 246, 152);
+            margin-left: 400px;
+            margin-right: 400px;
+            padding: 30px;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <form>
+          <h2>Registration Form</h2>
+          <label for="name">Name</label><br><br>
+          <input type="text" name="name" id="name" required><br><br>
+          <label for="email">Email Id</label><br><br>
+          <input type="email" name="email" id="email" required><br><br>
+          
+          <label for="ph.no">Phone Number</label><br><br>
+          <input type="tel" name="ph.no" id="ph.no" required><br><br>
+          <label for="gender">Gender</label><br><br>
+          <select>
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="others">Others</option>
+          </select><br><br>
+          <label for="lang">Lanuage</label><br><br>
+          <input type="text" name="lang" id="lang" required><br><br>
+          <label for="zipcode">Zip code</label><br><br>
+          <input type="text" name="zipcode" id="zipcode" required><br><br>
+          <label for="about">About</label><br><br>
+          <textarea id="about" rows="5" cols="30"></textarea><br><br>
+          <button>Submit</button>
+    </form>
+    </center>
+</body>
+</html>
